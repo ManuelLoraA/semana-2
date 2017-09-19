@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ver Black Clover</title>
+	<!-- Links de Bootstrap y css -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <!-- Slick Slider Style -->
+    <link rel="stylesheet" type="text/css" href="js/plugins/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/slick/slick.css">
+    <!-- Slick Slider Ends -->
+    <!-- Smooth Scroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+</head>
+
+<body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<!-- NAVBAR  -->
+    <div class="position-nav container">
+    	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav navbar-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><img class="crunchy-item" src="images/crunchy.png"><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sipnosis">Sipnosis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trailers">Trailers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#personajes">Personajes</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+<!-- NAVBAR ENDS -->
+
+<!-- HEADER -->
+    <div id="inicio">
+    <div class="container header-content">
+        <h1>Black Clover</h1>
+        <h2>¡SIGUE LA SERIE!</h2>
+        <h3>entérate de todas las novedades</h3>
+    <a href="http://www.crunchyroll.com/anime-news/2017/08/24-1/el-anime-black-clover-se-estrenar-el-3-de-octubre-y-revela-nuevas-voces" target="_blank"><button type="button" class="btn">Seguir</button></a>
+    </div>
+  
+  <div class="hfilter"></div>
+  
+    <video id="moodvideo" autoplay loop muted>
+      <source src="images/video-header1_1.webm" type='video/mp4'>
+      <img id="alternative" src="alternative.jpg" />
+  </video>
+    </div>
+
+	
+
+<!-- HEADER ENDS-->
+
+<!-- SIPNOSIS -->
+
+    <div id="sipnosis"></div>
+    <div class="container sipnosis">
+        <div class="col-md-4">
+            <img class="profile" src="images/profile.jpg">
+        </div>
+        <div class="col-md-8">
+            <h2 class="sip-title">Sipnosis</h2><br>
+            <p class="sip-text">Asta y Yuno fueron abandonados juntos en la misma iglesia y han sido inseparables desde entonces. Como niños, ellos prometieron que competirían uno contra el otro para ver quién se convertiría en el próximo Mago Emperador. Sin embargo, a medida que crecieron, algunas diferencias entre ellos se hicieron claras. Yuno era un genio con magia, con asombroso poder y control, mientras que Asta no podía usar magia en absoluto, así que trató de compensar su falta de magia entrenando físicamente.</p><br>
+            <ul class="sip-list">
+                <li>Comedia</li>
+                <li>Acción</li>
+                <li>Fantasía</li>
+                <li>Magía</li>
+                <li>Shounen</li>
+            </ul>
+            <br>
+            
+            <ul class="sip-list2">
+                <li>
+                    <img src="images/star.png">
+                </li>
+                <li>
+                    <p>9.8</p>
+                </li>
+            </ul>
+            
+            <br>
+            
+            <div class="fb-like" data-href="https://www.facebook.com/blackclover.fans/" data-width="auto" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+            </div>
+    </div>
+
+
+<!-- TRAILERS -->
+
+    <div id="trailers"></div>
+
+    <div class="container-fluid trailers">
+        <div class="container">
+            <div class="col-md-12">
+                <h2 class="tra-title">Trailers</h2>
+            </div>
+            <div class="col-md-6">
+              <iframe id="ytplayer" type="text/html"
+              src="https://www.youtube.com/embed/T0VHvMrZGCM"
+              frameborder="0"></iframe>
+                <ul class="tra-list">
+                    <li class="tra-name">Trailer 1</li>
+                    <li class="tra-duration">0:58 min</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <iframe id="ytplayer" type="text/html"
+              src="https://www.youtube.com/embed/TiIZ2NZxjMI"
+              frameborder="0"></iframe>
+                 <ul class="tra-list">
+                    <li class="tra-name">Trailer 2</li>
+                    <li class="tra-duration">0:36 min</li>
+                </ul>
+            </div>
+            <div class="col-md-12 tra-center">
+                <a href="#inicio" class="tra-btn">Aprende Más</a>
+            </div>
+        </div>
+    </div>
+
+<!-- PERSONAJES -->
+
+    <div id="personajes"></div>
+    <div class="container">
+        <div class="col-md-12">
+            <h2 class="per-title">Personajes</h2>
+        </div>
+        
+        <div class="responsive col-xs-12">
+            <div class="slick-img">
+                <img src="images/asta.png">
+                <div>
+                  <h3 class="per-name">Asta</h3>
+                </div>
+            </div>
+            <div class="slick-img">
+                <img src="images/yuno.png">
+                <div>
+                  <h3 class="per-name">Yuno</h3>
+                </div>
+            </div>
+            <div class="slick-img">
+                <img src="images/noelle.png">
+                <div>
+                  <h3 class="per-name">Noelle</h3>
+                </div>
+            </div>
+            <div class="slick-img">
+                <img src="images/luck.png">
+                <div>
+                  <h3 class="per-name">Luck</h3>
+                </div>
+            </div>
+            <div class="slick-img">
+                <img src="images/vanessa.png">
+                <div>
+                  <h3 class="per-name">Vanessa</h3>
+                </div>
+            </div>
+            <div class="slick-img">
+                <img src="images/charmy.png">
+                <div>
+                  <h3 class="per-name">Charmy</h3>
+                </div>
+            </div>
+            <div class="slick-img">
+                <img src="images/finral.png">
+                <div>
+                  <h3 class="per-name">Finral</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- SERIES RELACIONADAS -->
+
+  <div class="container-fluid series">
+    
+  <div class="container">
+          <div class="col-md-12">
+              <h2 class="ser-title">Series Relacionadas</h2>
+          </div>
+          
+          <div class="dos col-xs-12">
+              <div class="slick-img">
+                  <a target="_blank" href="http://www.crunchyroll.com/naruto-shippuden"><img src="images/naruto-shippuden.jpg"></a>
+              </div>
+              <div class="slick-img">
+                  <a target="_blank" href="http://www.crunchyroll.com/boruto-naruto-next-generations"><img src="images/boruto.jpg"></a>
+              </div>
+              <div class="slick-img">
+                  <a target="_blank" href="http://www.crunchyroll.com/my-hero-academia"><img src="images/boku-hero.jpg"></a>
+              </div>
+              <div class="slick-img">
+                  <a target="_blank" href="http://www.crunchyroll.com/hunter-x-hunter"><img src="images/hunter.jpg"></a>
+              </div>
+              <div class="slick-img">
+                  <a target="_blank" href="http://www.crunchyroll.com/dragon-ball-super"><img src="images/dragon-ball-super.jpg"></a>
+              </div>
+              <div class="slick-img">
+                  <a target="_blank" href="http://www.crunchyroll.com/one-piece"><img src="images/one-piece.jpg"></a>
+              </div>
+              <!-- <div class="slick-img">
+                  <img src="images/one-piece">
+              </div> -->
+          </div>
+      </div>
+  </div>
+
+  <div class="container botones">
+    <ul class="bot-list">
+      <li><a target="_blank" href="https://www.facebook.com/Crunchyroll.la/"><button class="btn">Facebook</button></a></li>
+      <li><a target="_blank" href="https://www.crunchyroll.com/"><button class="btn">Visit Crunchyroll</button></a></li>
+      <li><a target="_blank" href="https://www.instagram.com/crunchyroll_es/"><button class="btn">Instagram</button></a></li>
+    </ul>
+  </div>
+
+
+
+<!-- FOOTER -->
+
+  <div class="container-fluid footer">
+    
+    <div class="container">
+      
+      <div class="col-md-6">
+        <h3 class="foo-title">Este Octubre sólo en Crunchyroll</h3>
+        <p class="foo-text">sé testigo de esta nueva historia.</p>
+      </div>
+
+      <div class="col-md-6">
+        <img class="foo-img" src="images/logo.png">
+      </div>
+    
+    </div>
+  </div>
+
+  <div class="container-fluid footer2">
+    <div class="container">
+      <p class="foo2-text">Black Clover © 2017 - Todos los derechos reservados</p>
+      <img class="foo2-img" src="images/crunchy.png">
+    </div>
+  </div>
+
+
+<!-- SCRIPTS -->
+    
+    <!-- Scripts principales Bootstrap y JS -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Slick Slider js -->
+    <script type="text/javascript" src="js/plugins/slick/slick.js"></script>
+
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $('.responsive').slick({
+              dots: true,
+              infinite: true,
+              speed: 300,
+              arrows: true,
+              slidesToShow: 4,
+              slidesToScroll: 1,
+              responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+              ]
+          });
+      });
+  </script>
+
+   <script type="text/javascript">
+      $(document).ready(function(){
+      $('.dos').slick({
+              dots: true,
+              infinite: true,
+              speed: 300,
+              arrows: true,
+              slidesToShow: 6,
+              slidesToScroll: 1,
+              responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+              ]
+          });
+      });
+  </script>
+
+</body>
+</html>
